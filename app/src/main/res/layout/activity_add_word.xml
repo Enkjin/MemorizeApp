@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AddWord">
+
+    <EditText
+        android:id="@+id/wordAdd"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="@string/hint_word"
+        android:nextFocusDown="@id/wordTranslated"/>
+
+    <EditText
+        android:id="@+id/wordTranslated"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="@string/hint_trans"
+        android:nextFocusDown="@id/addWordButton"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/addWordButton"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/add" />
+
+        <Button
+            android:id="@+id/cancelWordButton"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/cancel" />
+    </LinearLayout>
+</LinearLayout>

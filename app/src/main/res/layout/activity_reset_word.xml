@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddWord"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:id="@+id/wordAdd"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="@string/hint_trans">
+    </EditText>
+    <EditText
+        android:id="@+id/wordTranslated"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:hint="@string/hint_word">
+
+    </EditText>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+    <Button
+        android:id="@+id/resetWordButton"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/reset"/>
+    <Button
+        android:id="@+id/cancelWordButton"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/cancel"/>
+    </LinearLayout>
+
+</LinearLayout>

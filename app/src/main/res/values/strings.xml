@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MemorizeApp</string>
+    <string name="hint_word">Input word</string>
+    <string name="hint_trans">Input translated word</string>
+    <string name="add">ADD</string>
+    <string name="settings">Settings</string>
+    <string name="read">Read words from file</string>
+    <string name="seeEng">See English word</string>
+    <string name="seeMgl">See Mongolian word</string>
+    <string name="cancel">CANCEL</string>
+    <string name="seeBoth">See both of Mongolian and English</string>
+    <string name="save">SAVE</string>
+    <string name="reset">RESET</string>
+    <string name="delete">DELETE</string>
+    <string name="back">BACK</string>
+    <string name="next">NEXT</string>
+</resources>

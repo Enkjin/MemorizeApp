@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/word"
+        android:layout_width="298dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="0dp"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/translated"
+        android:layout_width="298dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/add" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/reset" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:text="@string/back"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:textSize="18dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
